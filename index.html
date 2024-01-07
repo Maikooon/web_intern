@@ -1,15 +1,9 @@
 <!DOCTYPE html>
-<html lang="ja">
-<!-- CSSをインポート -->
+<html lang="en">
 
-<link rel="stylesheet" type="text/css" href="./css/header.css" />
-<link rel="stylesheet" type="text/css" href="./css/body.css" />
-<link rel="stylesheet" type="text/css" href="./css/background.css" />
-<link rel="stylesheet" type="text/css" href="./css/txt.css" />
-<link rel="stylesheet" type="text/css" href="./css/footer.css" />
-<link rel="stylesheet" type="text/css" href="./css/animation.css" />
-<link rel="stylesheet" type="text/js" href="./js/main.js" />
-<link rel="stylesheet" type="text/js" href="./js/db.js" />
+<!-- CSSをインポート -->
+<link rel="stylesheet" type="text/js" href="./server/db.js" />
+<link rel="stylesheet" type="text/js" href="./client/browser.js" />
 <link href='https://fonts.googleapis.com/css?family=Montserrat|Cardo' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
 <!-- ライブラリを使用する -->
@@ -39,8 +33,13 @@
 			<img class="slide" src="https://cdn.pixabay.com/photo/2023/08/25/16/13/skyscraper-8213318_1280.jpg" alt="京都">
 			</div>
 	</div>
+	<h1>Data from Server</h1>
+    <ul id="data-list"></ul>
+	<!-- ここからデータの表示を行う -->
 
-	</body>
+    <script src="./client/browser.js"></script>
+
+</body>
 
 
 <footer>
